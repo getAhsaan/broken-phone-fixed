@@ -16,7 +16,7 @@
     <main class="container">
         <section>
             <div class="mb-3 w-50">
-                <input id="search-field" type="email" class="form-control" id="exampleFormControlInput1"
+                <input id="search-field" type="text" class="form-control" id="exampleFormControlInput1"
                     placeholder="search your phone">
                 <div id="btn-search" class="btn btn-primary">Search</div>
             </div>
@@ -41,13 +41,13 @@
                 <div id="btn-show-all" class="btn btn-primary">Show All</div>
             </div>
         </section>
-        
+
         <!-- modal contents -->
         <section>
-            
+
             <!-- Modal -->
-            <div class="modal text-white fade" id="phoneDetailModal" tabindex="-1" aria-labelledby="phoneDetailModalLabel"
-                aria-hidden="true">
+            <div class="modal fade" id="phoneDetailModal" tabindex="-1"
+                aria-labelledby="phoneDetailModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -55,7 +55,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div id="phone-details" class="modal-body">
-                            
+
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
