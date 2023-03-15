@@ -27,3 +27,4 @@ Example: https://openapi.programming-hero.com/api/phone/apple_iphone_13_pro_max-
 9. Phone details are added on the modal but this is not getting displayed. why?
 10. Storage on Modal isn't getting displayed properly
 # broken-phone-fix
+# broken-phone-fix
